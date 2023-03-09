@@ -1,0 +1,289 @@
+/*
+.content {
+    margin: 1rem 10rem 10rem 10rem;
+    font-family: "Poppins",sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    outline-color: #92a8d1;
+}
+
+.snaplinkheader {
+    background-color: green;
+    font-family: "Poppins",sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center
+}
+
+.tabpanel{
+    text-align: center;
+    display: flex;
+    justify-content: stretch;
+}
+
+.userLoginHeader{
+    background-color: darkblue;
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+}
+
+*/
+
+
+
+/* ------------------Style commonly-used layout ------------------- */
+/* ---------------------------------------------------------------- */
+
+.App {
+    background-color: #444;
+}
+
+/* Style for icons */
+svg{
+    fill:  rgb(101, 202, 241) !important;
+}
+
+
+/* Style for header section */
+header{
+    background-color:  rgb(48, 117, 144) !important;
+}
+
+/* Style for logo image */
+#logo-image {
+    max-width: 150px;  
+    height: auto;
+    margin-top: 15px;
+    position: absolute;
+    left: 0px;
+}
+
+/* Style for title text */
+.css-1anx036 {
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 40%;
+    
+}
+
+/* Style for profile image */
+.css-1y1k3rb {
+    position: absolute;
+    right: 30px;
+}
+
+/* Style for the tab section */
+.MuiTabs-root{
+    background-color:  rgb(101, 202, 241) !important;
+}
+/* Chaneg the tab text font-size */
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+    font-size: 1.5rem !important;
+}
+
+/* Make search icon bigger */
+.css-vubbuv{
+    transform: scale(1.5);
+}
+
+/* Style for select options */
+.col-md-6 {
+    display: inline-block;
+}
+
+/* Make option label bigger */
+.css-ahj2mt-MuiTypography-root{
+    color: white!important;
+    font-size: 1.5rem!important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    color: white!important;
+    font-size: 1.5rem!important;
+}
+
+.css-2ulfj5-MuiTypography-root{
+    text-align: center !important;
+}
+
+.applicationMenuHeader {
+    text-align: center !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+/* Style for and, or relations */
+.col-md-3 {
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+
+
+
+/* Style for search result table */
+.MuiBox-root{
+    margin-top: 20px;
+    width: 100%;
+}
+/* Size of the table */
+.css-1e2bxag-MuiDataGrid-root{
+    width: 100%;
+    margin-left: 1%;
+}
+/* Style of table font color */
+.MuiDataGrid-main{
+    color: white;
+}
+/* Style for title line of table */
+.css-z8fhq1-MuiDataGrid-columnHeaders{
+    /* background-color: #fdf3dc; */
+    background-color: black;
+    font-size: medium;
+}
+/* Style for columns of table */
+.MuiDataGrid-cell{
+    font-size: 15px;
+}
+/* Each column has a different color */
+[data-field="id"]  { 
+    color: #ffff00;
+ }
+[data-field="url"]  { 
+    color:  rgb(101, 202, 241);
+ }
+ [data-field="type"]  { 
+    color: #FFC0CB;
+ }
+ [data-field="userLinkTags"] {
+    color: #00ff00;
+ }
+ [data-field="userLinkTags"] {
+    color: #00ff00;
+ }
+/* Style for record display number in one page */
+.css-levciy-MuiTablePagination-displayedRows{
+    font-size: small;
+    color: white;
+    margin: auto;
+}
+
+
+
+/* ------------------Start of add new link pop-up window----------------- */
+/* ---------------------------------------------------------------------- */
+.css-ohyacs{
+    background-color: #444;
+    color: white;
+    font-size: medium;
+}
+/* Page title */
+#draggable-dialog-title{
+    background-color: rgb(48, 117, 144);
+    font-size: 25px;
+    text-align: center
+}
+.css-1ty026z{
+    background-color: #444;
+    color: white;
+}
+.css-ypiqx9-MuiDialogContent-root .row{
+    margin-top: 20px;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+    background-color: white;
+    height: 35px;
+}
+/* Style for Type field */
+#outlined-commtype-native-simple{
+    font-size: medium;
+}
+
+
+/* Style for Add, Cancel buttons */
+.MuiDialogActions-spacing
+{
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+
+}
+.dialogactionbutton .MuiButtonBase-root{
+    font-size: large !important;
+    color:  rgb(101, 202, 241) !important;
+}
+
+
+.applicationLabel{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+    text-align: left;
+    margin-left: 40%;
+  }
+
+.applicationMenuHeader{
+    text-align: right;
+    margin-left: 42%;
+}
+
+.css-9l3uo3{
+    margin: 0px;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem !important;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: #FFF !important;
+}
+
+
+.tabbedContent .css-1q2h7u5{
+    font-weight: 800;
+    font-size: 1.5rem !important;    
+
+}
+
+.appDataGrid .css-vcjdx3{
+    font-size: 1.5rem !important;    
+}
+
+.MuiButtonBase-root .css-14b29qc{
+    font-size: 1.5rem !important;    
+}
+
+
+
+/* ------------------Start of user profile page css----------------- */
+/* ---------------------------------------------------------------- */
+.css-ahj2mt-MuiTypography-root{
+    color: white;
+}
+
+.css-ahj2mt-MuiTypography-root .row .row{
+    margin-top: 20px;
+}
+
+
+/* ------------------Start of login page css----------------- */
+/* ---------------------------------------------------------- */
+.userLoginHeader {
+    background-color: rgb(48, 117, 144) !important;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    background-color: #444;
+    color: white;
+}
+
+.css-ypiqx9-MuiDialogContent-root{
+    margin-top: 0%;
+}
+
+.col-md-12{
+    margin-top: 15px;
+}
